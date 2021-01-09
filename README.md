@@ -56,11 +56,11 @@
 
 `<b>` Bold text
 
-`<strong>` Important text __recommendable__
+`<strong>` Important text _(recommendable)_
 
 `<i>` Italic text 
 
-`<em>` Emphasized text (recommendable)
+`<em>` Emphasized text _(recommendable)_
 
 `<mark>` Marked text
 
@@ -84,7 +84,7 @@
 
 `<cite>` Defines the title of a work
 
-`<bdo dir="direction ex: rtl (right to left)">` Bi-directional override
+`<bdo dir="rtl | ltr">` Bi-directional override _[right-to-left | left-to-right]_
 
 `<mark>` Marked text
 
@@ -252,7 +252,7 @@ Tag | Description
 `<summary>` | Defines a heading for `<details>`
 `<figure>` | Groups a caption and its explanation  
 
-#### Example:
+#### Example
 
 ```html
 <figure>
@@ -295,7 +295,7 @@ Tag | Description
 
 `<input type="tel" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" title="National number" readonly>` Phone number
 
-`<input type="text" maxlength=50 size="30">` Set the amount of characters displayed in 30 and no more than 50 can be written
+`<input type="text" maxlength=50 size="30">` Text with characters limit
 
 `<input type="password" autofocus>` Password with autofocus
 
@@ -323,7 +323,7 @@ Tag | Description
 
 `<input type="hidden" id="custId" name="custId" value="3487">` Hide input information from the users
 
-`<input type="button" disabled>` Button 
+`<input type="button" disabled>` Basic Button 
 
 `<input type="submit">` Submit button
 
