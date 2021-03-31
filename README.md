@@ -5,7 +5,7 @@
 ## Structure
 
 ```html
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 <head>
   <title>My webpage</title>
